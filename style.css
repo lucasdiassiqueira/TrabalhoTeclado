@@ -20,8 +20,12 @@ header {
 }
 
 
-header h1 {
-    display: inline;
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 36px;
+    color: #333; 
+    text-align: center; 
+    margin-top: 20px;
 }
 
 /* Banner */
