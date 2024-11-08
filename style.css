@@ -41,16 +41,30 @@ h2 {
 }
 
 /* Banner */
-.banner {
-    text-align: center;
-    background-color: #999999;
-    padding: 20px;
-    color: white;
+.carousel {
+    width: 100%;
+    max-width: 600px; /* Ajuste conforme desejado */
+    overflow: hidden;
+    margin: 20px auto;
+    position: relative;
 }
 
-.banner img {
-    max-width: 100%;
+.carousel-slide {
+    display: flex;
+    width: 300%; /* 3 imagens */
+    animation: slide 12s infinite;
+}
+
+.carousel-slide img {
+    width: 100%;
     height: auto;
+}
+
+@keyframes imagebanner {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
 }
 
 /* Texto principal */
