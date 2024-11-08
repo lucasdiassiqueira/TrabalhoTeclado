@@ -15,7 +15,7 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 130px;
     height: auto;
     margin-left: 20px; 
     margin-top: 10px; 
@@ -25,7 +25,7 @@ header {
 /*Formatação do Tpitulo*/
 h1 {
     font-family: 'Oswald', sans-serif; 
-    font-size: 60px;
+    font-size: 68px;
     color: #F3F3E0; 
     text-align: center; 
     margin-top: 20px;
@@ -52,8 +52,6 @@ h2 {
     max-width: 100%;
     height: auto;
 }
-
-
 
 /* Texto principal */
 main {
