@@ -1,4 +1,4 @@
-/* Configurações de estilo geral */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,10 +15,10 @@ header {
 }
 
 .logo {
-    width: 50px
-    vertical-align: middle;
-    margin-right: 10px;
+    width: 100px;
+    height: auto;
 }
+
 
 header h1 {
     display: inline;
@@ -39,7 +39,7 @@ header h1 {
 
 /* Texto principal */
 main {
-    padding: 20px;
+    padding: 20 px;
     color: #333333;
 }
 
