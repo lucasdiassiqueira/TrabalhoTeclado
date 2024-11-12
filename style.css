@@ -66,8 +66,8 @@ main h3 {
 /* Rodapé */
 footer {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between; /* Distribui as três seções igualmente */
+    align-items: center; /* Alinha verticalmente */
     background-color: #333;
     color: white;
     padding: 20px;
@@ -75,14 +75,15 @@ footer {
 
 .footer-esquerda,
 .footer-direita {
-    flex: 1; /
+    flex: 1; /* Faz com que as seções ocupem o mesmo espaço */
 }
 
 .footer-centro {
-    text-align: center; /
+    flex: 2; /* Aumenta o espaço para o QR Code */
+    text-align: center; /* Centraliza o conteúdo da parte do meio */
 }
 
-.footer-esquerda p,
+.footer-esquerda img,
 .footer-direita p {
     margin: 5px 0;
 }
@@ -97,15 +98,14 @@ footer a:hover {
 }
 
 footer .logo {
-    width: 100px; 
+    width: 100px; /* Ajuste o tamanho da logo */
 }
 
 footer .qr-code {
-    width: 120px; 
+    width: 150px; /* Aumente ou ajuste o tamanho conforme necessário */
     height: auto;
 }
 
 footer p {
     margin: 5px 0;
 }
-
