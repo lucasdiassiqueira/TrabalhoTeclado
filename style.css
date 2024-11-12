@@ -66,21 +66,21 @@ main h3 {
 /* Rodapé */
 footer {
     display: flex;
-    justify-content: space-between; /* Distribui as três seções igualmente */
-    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #333;
     color: white;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
 .footer-esquerda,
 .footer-direita {
-    flex: 1; /* Faz com que as seções ocupem o mesmo espaço */
+    flex: 1; 
 }
 
 .footer-centro {
-    flex: 2; /* Aumenta o espaço para o QR Code */
-    text-align: center; /* Centraliza o conteúdo da parte do meio */
+    flex: 3; 
+    text-align: center; 
 }
 
 .footer-esquerda img,
@@ -98,11 +98,11 @@ footer a:hover {
 }
 
 footer .logo {
-    width: 100px; /* Ajuste o tamanho da logo */
+    width: 300px; /* Ajuste o tamanho da logo */
 }
 
 footer .qr-code {
-    width: 150px; /* Aumente ou ajuste o tamanho conforme necessário */
+    width: 250px; /* Aumente ou ajuste o tamanho conforme necessário */
     height: auto;
 }
 
