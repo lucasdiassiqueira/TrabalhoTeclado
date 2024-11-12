@@ -103,10 +103,10 @@ footer .logo {
 }
 
 footer .qr-code {
-    width: 300px; /* Aumente ou ajuste o tamanho conforme necessário */
+    width: 280px; /* Aumente ou ajuste o tamanho conforme necessário */
     height: auto;
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 15px 0;
 }
