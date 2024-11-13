@@ -17,7 +17,7 @@ header {
 .logo {
     width: 170px;
     height: auto;
-    margin-left: 20px; 
+    margin-left: 40px; 
     margin-top: 20px; 
     float: left;
 }
@@ -99,7 +99,7 @@ footer {
 
 .footer-esquerda img,
 .footer-direita p {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 footer a {
@@ -112,11 +112,11 @@ footer a:hover {
 }
 
 footer .logo {
-    width: 250px; /* Ajuste o tamanho da logo */
+    width: 250px; 
 }
 
 footer .qr-code {
-    width: 280px; /* Aumente ou ajuste o tamanho conforme necessário */
+    width: 280px; 
     height: auto;
 }
 
