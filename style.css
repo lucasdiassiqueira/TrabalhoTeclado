@@ -63,6 +63,17 @@ main h3 {
     padding-left: 30px;
     color: #666666;
 }
+/*imagem das teclas*/
+.imagem-teclado {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.imagem-teclado .imagem-full {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
 
 /* Rodapé */
 footer {
