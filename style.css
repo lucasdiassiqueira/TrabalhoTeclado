@@ -1,11 +1,11 @@
 body {
     display: flex;
-    flex-direction: column; /* Os elementos serão organizados verticalmente */
+    flex-direction: column; 
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f4f4f9;
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove espaçamento padrão */
+    margin: 0;
+    padding: 0; 
 }
 
 /* Cabeçalho */
@@ -15,21 +15,21 @@ header {
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative; /* O cabeçalho será mostrado como parte do fluxo da página */
+    position: relative; 
 }
 
 .logo {
-    width: 150px;
+    width: 200px;
     height: auto;
-    margin-left: 30px; /* Pequeno espaçamento à esquerda */
+    margin-left: 30px; 
     float: left;
 }
 
 /* Formatação do título principal */
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 48px;
-    color: #444;
+    color: #F3F3E0;
     margin: 20px 0;
     text-align: center;
 }
@@ -37,7 +37,7 @@ h1 {
 /* Formatação de subtítulos */
 h2 {
     font-size: 24px;
-    color: #555;
+    color: #444;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -77,21 +77,20 @@ main h3 {
 /* Imagem das teclas */
 .imagem-teclado {
     width: 100%;
-    margin: 20px 0;
-    text-align: center;
+    overflow: hidden; 
 }
 
 .imagem-teclado .imagem-full {
-    width: 100%;
-    height: auto;
-    max-height: 400px; /* Limita a altura máxima */
-    display: block;
+    width: 100%; 
+    height: 300px; 
+    display: block; 
 }
 
 /* Rodapé */
 footer {
     display: flex;
     width: 100%;
+    height: 120px;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
