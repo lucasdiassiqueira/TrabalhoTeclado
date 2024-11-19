@@ -1,9 +1,16 @@
 
 body {
+    display: flex;
     font-family: Arial, sans-serif;
     margin: 0;
     color: #F3F3E0;
     background-color: #f4f4f9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
 }
 
 /* Cabecalho */
@@ -32,11 +39,10 @@ h1 {
 }
 /*Outro Texto lá*/
 h2 {
-    font-size: 30px; 
+    font-size: 2rem; 
     color: #444; 
-    margin-top: 30px; 
-    margin-bottom: 15px;
-    padding-left: 10px;
+    margin-bottom: 20px;
+    
 
 }
 
@@ -53,65 +59,17 @@ h2 {
     height: auto;
 }
 
-.carousel {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-}
-
-.carousel-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-    min-width: 100%;
-    box-sizing: border-box;
-}
-
-.carousel-item img {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
-}
-
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 18px;
-}
-
-.carousel-btn.prev {
-    left: 10px;
-}
-
-.carousel-btn.next {
-    right: 10px;
-}
-
-.carousel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
 /* Texto */
 main {
-    padding: 20 px;
+    width: 70%;
+    padding: 20px auto;
     color: #333333;
 }
 
 main h3 {
-    padding-left: 30px;
+    width: 70%;
+    margin: 20px auto;
+    padding:  20px;
     color: #666666;
 }
 
