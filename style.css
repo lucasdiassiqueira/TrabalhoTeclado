@@ -15,11 +15,13 @@ body {
 
 /* Cabecalho */
 header {
-    width: 100%;
+    width: 100%; 
+    background-color: #f5f5f5;
+    padding: 15px 0;
     text-align: center;
-    background-color: #666666;
-    padding: 20px;
-    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
 }
 
 .logo {
