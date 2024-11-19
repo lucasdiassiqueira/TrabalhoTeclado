@@ -15,6 +15,7 @@ body {
 
 /* Cabecalho */
 header {
+    width: 100%;
     text-align: center;
     background-color: #666666;
     padding: 20px;
@@ -88,6 +89,7 @@ main h3 {
 /* Rodapé */
 footer {
     display: flex;
+    width: 100%;
     justify-content: space-between; 
     align-items: center; 
     font-size: 20px;
