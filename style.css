@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Cabeçalho */
+/* Cabecalho */
 header {
     text-align: center;
     background-color: #666666;
@@ -53,7 +53,7 @@ h2 {
     height: auto;
 }
 
-/* Texto principal */
+/* Texto */
 main {
     padding: 20 px;
     color: #333333;
