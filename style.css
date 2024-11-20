@@ -27,10 +27,11 @@ header {
 
 h1 {
     font-family: 'Arial', sans-serif;
+    text-align: center;
     font-size: 50px;
     color: #F3F3E0;
     margin: 20px;
-    text-align: center;
+    
     
 }
 
